@@ -17,7 +17,7 @@ int main()
   }else if(kode == 3)
   {
     printf("%d", kode);
-    printf(" adalah Hari Rabi");
+    printf(" adalah Hari Rabu");
   }else if(kode == 4)
   {
     printf("%d", kode);

@@ -36,7 +36,7 @@ int main()
     printf(" adalah Hari Minggu");
   }else{
     printf("%d", kode);
-    printf(" tidak ada hari");
+    printf(" tidak ada hari pada kode ini");
   }
   return 0;
 }

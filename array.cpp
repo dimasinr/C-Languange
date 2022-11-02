@@ -1,5 +1,7 @@
 #include<stdio.h>
+#include <cstdlib>
 void printArray(int [ ][3]);
+using namespace std;
 int main(){
     int a,x,z,y,m;
     int matrik1 [2][3];
@@ -16,6 +18,8 @@ int main(){
     }
     }
     printArray(matrik1);
+ 
+
 }
 
 void printArray(int a [ ][3]){
@@ -28,4 +32,5 @@ void printArray(int a [ ][3]){
             printf("\n");
     
     }
+  	exit(1);
 }
